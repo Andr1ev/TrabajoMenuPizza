@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultadoPizza">
+
+    <TextView
+        android:id="@+id/tvValor"
+        android:layout_width="105dp"
+        android:layout_height="50dp"
+        android:gravity="center|start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toTopOf="@+id/guideline18"
+        app:layout_constraintVertical_bias="0.148" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="105dp"
+        android:layout_height="50dp"
+        android:gravity="center|start"
+        android:hint="@string/tv4"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline18"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <TextView
+        android:id="@+id/tvIngre"
+        android:layout_width="190dp"
+        android:layout_height="88dp"
+        android:gravity="start"
+        app:layout_constraintBottom_toTopOf="@+id/guideline18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.206"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toTopOf="@+id/guideline17"
+        app:layout_constraintVertical_bias="0.547" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="105dp"
+        android:layout_height="50dp"
+        android:gravity="center|start"
+        android:hint="@string/tv3"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/guideline18"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline17"
+        app:layout_constraintVertical_bias="0.226" />
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="178dp"
+        android:layout_height="51dp"
+        android:gravity="center|start"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toTopOf="@+id/guideline19"
+        app:layout_constraintVertical_bias="0.796" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="108dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="159dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="113dp"
+        android:layout_height="54dp"
+        android:gravity="center|start"
+        android:hint="@string/tv1"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline19"
+        app:layout_constraintVertical_bias="0.79" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="244dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="105dp"
+        android:layout_height="50dp"
+        android:gravity="center|start"
+        android:hint="@string/tv2"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/guideline17"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline8"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <TextView
+        android:id="@+id/tvTamaño"
+        android:layout_width="172dp"
+        android:layout_height="55dp"
+        android:gravity="center|start"
+        app:layout_constraintBottom_toTopOf="@+id/guideline17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toTopOf="@+id/guideline8" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="405dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="69dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="173dp"
+        android:layout_height="39dp"
+        android:gravity="center"
+        android:hint="@string/tvdetalles"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

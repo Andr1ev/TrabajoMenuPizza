@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="39dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="178dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:hint="@string/tvNombre"
+        android:textColor="#020000"
+        android:textColorHint="#020000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="89dp" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:hint="@string/etNombre"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="144dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.34" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.67" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="197dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="250dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="303dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="353dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="401dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="454dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="506dp" />
+
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="@string/cb1"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/guideline9"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="@string/cb2"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline9" />
+
+    <CheckBox
+        android:id="@+id/cb3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="@string/cb3"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/guideline11"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline10" />
+
+    <CheckBox
+        android:id="@+id/cb4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="@string/cb4"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/guideline12"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline11" />
+
+    <CheckBox
+        android:id="@+id/cb5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="@string/cb5"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/guideline13"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline12" />
+
+    <CheckBox
+        android:id="@+id/cb6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="@string/cb6"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/guideline14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline13" />
+
+    <CheckBox
+        android:id="@+id/cb7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="@string/cb7"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/guideline15"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline14" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="566dp" />
+
+    <Button
+        android:id="@+id/btnAceptar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="#D5D0D0"
+        android:hint="@string/btnaceptar"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/guideline16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline15" />
+
+    <RadioGroup
+        android:layout_width="409dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbPeq"
+            android:layout_width="34dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="@string/rb1"
+            android:textColorHint="#000000" />
+
+        <RadioButton
+            android:id="@+id/rbMed"
+            android:layout_width="33dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="@string/rb2"
+            android:textColorHint="#000000" />
+
+        <RadioButton
+            android:id="@+id/rbGra"
+            android:layout_width="33dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="@string/rb3"
+            android:textColorHint="#000000" />
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

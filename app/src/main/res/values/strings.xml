@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TrabajoMenú</string>
+    <string name="tvNombre">Pizzeria Juanito</string>
+    <string name="etNombre">Ingrese su nombre</string>
+    <string name="cb1">Carne $400</string>
+    <string name="cb2">Peperoni $200</string>
+    <string name="cb3">Tocino $450</string>
+    <string name="cb4">Champiñon $250</string>
+    <string name="cb5">Tomate $200</string>
+    <string name="cb6">Choclo $200</string>
+    <string name="cb7">Aceituna $250</string>
+    <string name="btnaceptar">ACEPTAR</string>
+    <string name="rb1">Pequeña $1500</string>
+    <string name="rb2">Mediana $3000</string>
+    <string name="rb3">Familiar $5000</string>
+    <string name="tvdetalles">DETALLES</string>
+    <string name="tv1">Nombre:</string>
+    <string name="tv2">Tamaño:</string>
+    <string name="tv3">Ingredientes:</string>
+    <string name="tv4">Total:</string>
+
+
+</resources>
